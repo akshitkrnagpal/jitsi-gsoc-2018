@@ -1,5 +1,16 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Container } from 'reactstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default () => <div>Hello world!</div>
+class Index extends Component {
+    render() {
+        return (
+            <Container>
+                <div> Hello World ! </div>
+            </Container>
+        )
+    }
+}
+
+export default Index;
