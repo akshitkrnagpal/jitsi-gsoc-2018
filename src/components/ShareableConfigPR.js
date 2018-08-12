@@ -24,6 +24,7 @@ class ShareableConfigPR extends Component {
                     <a
                         className = 'btn btn-dark'
                         href = { ShareableConfigPRLink }
+                        rel='noopener noreferrer'
                         target = '_blank' >
                         View Pull Request
                     </a>
