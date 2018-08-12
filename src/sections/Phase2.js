@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 
-import { EmailChangePR } from '../components';
+import { EmailChangePR, GetAvatarPR } from '../components';
 
 class Phase2 extends Component {
     render() {
@@ -45,12 +45,12 @@ class Phase2 extends Component {
                             Finally, Native settings were also checked off the list.
                         </p>
                         <p>
-                            Now, since a decent application was ready, it was time 
+                            Now, since a decent application was ready, it was time
                             to build it for all platforms (Windows, MacOS, Linux).
-                            We decided to do builds of AppImage for Linux, DMG for 
-                            MacOS and EXE for Windows. But since we had native 
+                            We decided to do builds of AppImage for Linux, DMG for
+                            MacOS and EXE for Windows. But since we had native
                             dependency robotjs, we could only build targets on same
-                            host machine. Therefere, we decided to add automatic 
+                            host machine. Therefere, we decided to add automatic
                             build using Travis (MacOS and Linux) and Appveyor
                             (Windows).
                         </p>
@@ -59,6 +59,8 @@ class Phase2 extends Component {
                         </p>
                     </Col>
                     <Col sm = '4'>
+                        <GetAvatarPR />
+                        <hr className = 'invisible' />
                         <EmailChangePR />
                     </Col>
                 </Row>
