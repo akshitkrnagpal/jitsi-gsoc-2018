@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
-import { Container } from 'reactstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Introduction } from '../sections';
 
 class Index extends Component {
     render() {
         return (
-            <Container>
-                <div> Hello World ! </div>
-            </Container>
+            <div>
+                <Introduction />
+            </div>
         )
     }
 }
