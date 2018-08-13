@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { FinalPhase, Introduction, Phase1, Phase2 } from '../sections';
+import { FinalPhase, Introduction, Phase1, Phase2, UsefulLinks } from '../sections';
 
 class Index extends Component {
     render() {
@@ -16,6 +16,7 @@ class Index extends Component {
                 <Phase1 />
                 <Phase2 />
                 <FinalPhase />
+                <UsefulLinks />
             </div>
         )
     }
