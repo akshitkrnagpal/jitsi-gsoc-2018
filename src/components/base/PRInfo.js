@@ -6,6 +6,8 @@ import {
     CardTitle
 } from 'reactstrap';
 
+import ExternalLink from './ExternalLink';
+
 class PRInfo extends Component {
     render() {
         const {
@@ -19,13 +21,11 @@ class PRInfo extends Component {
                 <CardBody>
                     <CardTitle>{ repo }</CardTitle>
                     <CardText>{ text }</CardText> 
-                    <a
+                    <ExternalLink
                         className = 'btn btn-dark'
-                        href = { link }
-                        rel='noopener noreferrer'
-                        target = '_blank' >
+                        href = { link } >
                         View Pull Request
-                    </a>
+                    </ExternalLink>
                 </CardBody>
             </Card>
         );
