@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { EmailChangePRLink } from '../config';
-import PRInfo from './PRInfo';
+import { PRInfo } from './base';
 
 class EmailChangePR extends Component {
     render() {

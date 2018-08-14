@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { GetAvatarPRLink } from '../config';
-import PRInfo from './PRInfo';
+import { PRInfo } from './base';
 
 class GetAvatarPR extends Component {
     render() {

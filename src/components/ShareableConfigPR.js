@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import { ShareableConfigPRLink } from '../config';
-import PRInfo from './PRInfo';
+import { PRInfo } from './base';
 
 class ShareableConfigPR extends Component {
     render() {
