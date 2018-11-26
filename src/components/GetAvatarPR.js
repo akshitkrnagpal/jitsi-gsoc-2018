@@ -9,12 +9,12 @@ class GetAvatarPR extends Component {
             <PRInfo
                 link = { GetAvatarPRLink }
                 repo = 'js-utils'
-                text = '
+                text = { `
                     The avatar for the user was generated using Gravatar
                     service from Email ID. For sharing this logic between
                     jitsi-meet and jitsi-meet-electron, it was moved from
                     jitsi-meet to js-utils.
-                ' />
+                ` } />
         );
     }
 }

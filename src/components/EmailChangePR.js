@@ -9,13 +9,13 @@ class EmailChangePR extends Component {
             <PRInfo
                 link = { EmailChangePRLink }
                 repo = 'jitsi-meet'
-                text = '
-                    For synchronizing email in native settings and 
-                    conference settings, and email change listener 
+                text = { `
+                    For synchronizing email in native settings and
+                    conference settings, and email change listener
                     was needed in the Jitsi Meet API module. Since,
-                    this event was not needed before, it was not 
+                    this event was not needed before, it was not
                     implemented. Hence, I implemented this.
-                ' />
+                ` } />
         );
     }
 }
