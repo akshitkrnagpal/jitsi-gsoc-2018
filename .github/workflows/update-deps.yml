@@ -12,6 +12,7 @@ jobs:
       with:
         node-version: 12
     - run: npx npm-check-updates -u
+    - run: rm yarn.lock
     - run: yarn install
     - uses: actions-js/push@v1.2
       with: 
