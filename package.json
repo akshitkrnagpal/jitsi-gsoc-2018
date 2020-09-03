@@ -9,8 +9,8 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "bootstrap": "4.5.0",
-    "gatsby": "2.24.23",
+    "bootstrap": "4.5.2",
+    "gatsby": "2.24.53",
     "gatsby-plugin-react-helmet": "3.3.10",
     "jquery": "3.5.1",
     "popper.js": "1.16.1",
