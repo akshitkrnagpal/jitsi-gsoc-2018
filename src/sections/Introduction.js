@@ -7,7 +7,7 @@ class Introduction extends Component {
             <Jumbotron>
                 <Container>
                     <h1>Google Summer of Code '18 @ Jitsi</h1>
-                    <p className = 'lead'> By - Akshit Kr Nagpal </p>
+                    <a href = 'https://www.akshitkrnagpal.com' className = 'lead'> By - Akshit Kr Nagpal </a>
                     <hr />
                     <dl>
                         <dt>Project Name</dt>
